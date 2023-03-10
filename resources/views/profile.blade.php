@@ -29,10 +29,10 @@
                             <b>NIM</b> <a class="float-right">{{ $nim }}</a>
                         </li>
                         <li class="list-group-item">
-                            <b>Nomor Absen</b> <a class="float-right">{{ $absen }}</a>
+                            <b>Kelas</b> <a class="float-right">{{ $kelas }}</a>
                         </li>
                         <li class="list-group-item">
-                            <b>Kelas</b> <a class="float-right">{{ $kelas }}</a>
+                            <b>Nomor Absen</b> <a class="float-right">{{ $absen }}</a>
                         </li>
                     </ul>
                 </div>

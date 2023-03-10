@@ -60,5 +60,5 @@ Route::get('/about-us', function () {
 Route::resource('/contact-us', ContactUsController::class)->only(["index"]);
 
 Route::get('/dashboard', [HomeController::class, 'index'])->name('home');
-Route::get('/profile', [ProfileController::class, 'profile'])->name('profile');
+Route::get('/profile', [ProfileController::class, 'index'])->name('profile');
 Route::get('/curhat', [CurhatanController::class, 'index'])->name('curhat');
